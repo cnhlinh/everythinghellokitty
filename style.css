@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #F4499A;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;   
+}
+
+nav ul li a:hover {
+    background-color: #FA2C6D;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color:#FFCBD6;
+    margin-top: 20px;
+}
